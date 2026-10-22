@@ -15,7 +15,7 @@ The existing skill is the compatibility baseline. The standalone repository beco
 ## Components
 
 - `SKILL.md`: entrypoint, source selection, delivery levels, verification and routing.
-- `scripts/publish.mjs`: deterministic CLI. Resolves article, extracts public metadata, checks readiness and private residues, copies local assets, rewrites image and asset links, then writes a manifest. Writes nothing if preflight fails. Refuses to replace existing output unless explicitly requested.
+- `scripts/publish.mjs`: deterministic CLI. Resolves article, extracts public metadata, checks readiness and private residues, copies local assets, and rewrites image and asset links. Prepared packages receive a portable manifest; direct blog writes report through stdout. Writes nothing if preflight fails. Refuses to replace existing output unless explicitly requested.
 - `references/apframework.md`: Contentlayer MDX layout, build and browser checks, attribution and publication semantics.
 - `references/wechat.md`: Markdown and asset package for editor import; actual account draft/publication requires a separately available authorized channel tool.
 - `references/generic-md.md`: portable Markdown package.
