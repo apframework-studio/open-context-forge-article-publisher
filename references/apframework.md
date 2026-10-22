@@ -2,7 +2,7 @@
 
 ## 输入与路径
 
-支持 `article.md`、`published.md`、`final.md` 和显式 Markdown/MDX。博客仓库默认示例为 `/Users/shoukai/githome/github/apframework.com`；实际运行以用户指定或已核实的仓库路径为准。
+支持 `article.md`、`published.md`、`final.md` 和显式 Markdown/MDX。博客仓库示例路径为 `/absolute/path/to/blog`；实际运行以用户指定或已核实的仓库路径为准。
 
 输出：
 

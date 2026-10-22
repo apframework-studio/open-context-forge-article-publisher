@@ -63,6 +63,7 @@ The script rejects draft status, unresolved wiki links, unfinished markers, comm
 - [references/](references/) — channel-specific preparation and verification.
 - [docs/design.md](docs/design.md) — feature design and delivery levels.
 - [docs/implementation-plan.md](docs/implementation-plan.md) — initial implementation sequence.
+- [docs/public-release-readiness.md](docs/public-release-readiness.md) — checks before making the repository public.
 - [tests/publish.test.mjs](tests/publish.test.mjs) — CLI behavior tests.
 
 Run `npm test` to check the script. The project is licensed under [MIT](LICENSE).

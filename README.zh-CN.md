@@ -63,6 +63,7 @@ node scripts/publish.mjs --project /absolute/path/to/writing-project \
 - [references/](references/)：各渠道的准备与验证规则。
 - [docs/design.md](docs/design.md)：功能设计和交付阶段。
 - [docs/implementation-plan.md](docs/implementation-plan.md)：首版实现计划。
+- [docs/public-release-readiness.md](docs/public-release-readiness.md)：仓库公开前检查（英文）。
 - [tests/publish.test.mjs](tests/publish.test.mjs)：脚本行为测试。
 
 开发时运行 `npm test`。本项目采用 [MIT 许可证](LICENSE)。
